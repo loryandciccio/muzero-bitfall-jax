@@ -1,0 +1,27 @@
+{
+  "actor_only_evaluation": {
+    "benchmark_json": "run_20260424_1114_to_1424/benchmark_muzero_weights_optimized_1000eps.json",
+    "episodes": 1000,
+    "max": 23.0,
+    "mean": 6.9019999504089355,
+    "median": 7.0,
+    "min": -14.0,
+    "non_negative_episodes": 906,
+    "positive_episodes": 874,
+    "std": 5.633506774902344,
+    "used_existing_1000_episode_results": true
+  },
+  "artifacts": {
+    "actor_only_reward_distribution_compact_png": "results/presentation_figures/actor_only_reward_distribution_compact.png",
+    "actor_only_reward_distribution_png": "results/presentation_figures/actor_only_reward_distribution.png",
+    "final_results_slide_png": "results/presentation_figures/final_results_slide.png",
+    "training_dynamics_png": null
+  },
+  "run_dir": "run_20260424_1114_to_1424",
+  "training_dynamics": {
+    "missing_log_file": "run_20260424_1114_to_1424/training_history.json",
+    "output_path": "results/presentation_figures/training_dynamics.png",
+    "status": "missing_log"
+  },
+  "weights_path": "run_20260424_1114_to_1424/muzero_weights_optimized.pkl"
+}

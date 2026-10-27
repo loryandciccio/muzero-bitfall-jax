@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+*.log
+*_steps/
+training_history.json
+actor_eval_local.json
+actor_demo.gif
